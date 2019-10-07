@@ -22,6 +22,7 @@ if [ "$#" -ge "2" -a "$2" = "-" ]
 then
     tempfile="$(mktemp emacs-stdin-$USER.XXXXXXX --tmpdir)"
     cat - > "$tempfile"
+    echo "youyou"
     _emacsfun --no-wait $tempfile
 else
     _emacsfun "$@"
