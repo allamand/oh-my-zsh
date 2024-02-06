@@ -1,0 +1,1 @@
+/home/ec2-user/.kubectx/completion/_kubectx.zsh
